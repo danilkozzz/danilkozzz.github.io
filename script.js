@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     gsap.registerPlugin(ScrollTrigger);
     console.log("hello!");
     console.log("hello2!");
+    console.log("hello3!");
     
     function createScrollTrigger(triggerElement, timeline) {
         ScrollTrigger.create({
